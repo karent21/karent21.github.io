@@ -22,7 +22,7 @@
             src="https://www.shutterstock.com/image-photo/indoor-house-pot-plants-potted-600nw-1747639997.jpg"
             class="img-fluid rounded"
             alt="Aloe Vera"
-            style="width: 200px; height: 200px; object-fit: cover"
+            style="width: 400px; height: 400px; object-fit: cover"
           />
           <h5 class="mt-3">Aloe Vera</h5>
           <p>Known for its healing properties and easy care!</p>
@@ -34,7 +34,7 @@
             src="https://shop-static.arborday.org/media/0004367_snake-plant.jpeg"
             class="img-fluid rounded"
             alt="Snake Plant"
-            style="width: 200px; height: 200px; object-fit: cover"
+            style="width: 400px; height: 400px; object-fit: cover"
           />
           <h5 class="mt-3">Snake Plant</h5>
           <p>Hardy and great for indoor air purification.</p>
@@ -46,7 +46,7 @@
             src="https://media.houseandgarden.co.uk/photos/64677e9c55fc4e858e5b4d31/master/w_1600%2Cc_limit/492766473"
             class="img-fluid rounded"
             alt="Peace Lily"
-            style="width: 200px; height: 200px; object-fit: cover"
+            style="width: 400px; height: 400px; object-fit: cover"
           />
           <h5 class="mt-3">Peace Lily</h5>
           <p>Elegant flowers and thrives in shade!</p>
