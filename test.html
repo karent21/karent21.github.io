@@ -5,7 +5,7 @@
 </head>
 <body>
 
-  <h2>My Fun Sentence Using Concatenation</h2>
+  <h2>Fun Sentences Using Concatenation</h2>
 
   <!-- This paragraph will display the result -->
   <p id="output"></p>
@@ -26,5 +26,25 @@
     src="https://pbs.twimg.com/media/DnFUA7PW4AE4CuW.jpg:large"
     style="width: 200px; height: 200px; object-fit: cover"
             />
+ <!-- This paragraph will display the result -->
+  <p id="output"></p>
+
+  <script>
+    // Variables with parts of the sentence
+    var intro = "Mickey is my dog ";
+    var call = "and I call him";
+    var name = "toe biter.";
+
+    // Concatenate the parts together
+    var fullSentence = intro + call + name;
+
+    // Show the sentence on the page
+    document.getElementById("output").textContent = fullSentence;
+  </script>
+ <img
+    src="https://drive.google.com/file/d/1zIcAT-YyiBpENpSNMxihF4Y4GWLK5J8M/view"
+    style="width: 200px; height: 200px; object-fit: cover"
+            />
+  
 </body>
 </html>
