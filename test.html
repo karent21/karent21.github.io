@@ -22,6 +22,8 @@
     // Show the sentence on the page
     document.getElementById("output").textContent = fullSentence;
   </script>
-
+ <img
+            src="https://pbs.twimg.com/media/DnFUA7PW4AE4CuW.jpg:large"
+            />
 </body>
 </html>
