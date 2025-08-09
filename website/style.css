@@ -1,0 +1,107 @@
+body {
+  margin: 0;
+  font-family: 'DM Sans', sans-serif;
+  background-color: #fff;
+  text-align: center;
+
+}
+
+header {
+  margin-top: -230px;
+  background-color: #D1D1FA;
+  padding: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  clear: both;
+}
+
+.menu-icon {
+  font-size: 24px;
+  cursor: pointer;
+  padding: 0 15px;
+}
+
+nav a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #000;
+  font-weight: bold;
+  background: white;
+  padding: 5px 10px;
+  border-radius: 8px;
+  transition: 0.3s;
+}
+
+nav a:hover {
+  background-color: #d4c6f2;
+}
+
+.logo {
+  margin-top: 30px;
+  margin-left:600px;
+  width: 200px;
+  border-radius: 50%;
+}
+
+h1 {
+  font-size: 100px;
+  margin-top: 20px;
+}
+
+.decorative.heart {
+  margin-top:50px;
+  margin-left:-700px;
+  width: 40px;
+  height: 40px;
+  background-size: contain;
+  display: inline-block;
+}
+
+img.purple-round {
+  float: left;
+  margin-right: 20px;
+  margin-bottom: 10px;
+}
+
+img.black-round{
+  float:right;
+  margin-left: 80px;
+  margin-top:-280px;
+  margin-bottom:0px;
+}
+
+.container{
+  display:flex;
+  flex-direction: column;
+  align-items: cente
+}
+
+
+
+.sidebar {
+        position: fixed;
+        top: 0;
+        left: -250px; 
+        width: 250px;
+        height: 100vh;
+        background-color: #333;
+        transition: transform 0.3s ease-in-out; 
+    }
+
+@media (min-width: 768px) {
+  nav {
+    display: flex !important;
+    gap: 20px;
+  }
+
+  header nav {
+    display: flex;
+    align-items: center;
+    width: 100%;
+  }
+
+  header nav a:first-child {
+    margin-right: auto;
+  }
+}
