@@ -16,12 +16,6 @@ header {
   clear: both;
 }
 
-.menu-icon {
-  font-size: 24px;
-  cursor: pointer;
-  padding: 0 15px;
-}
-
 nav a {
   margin: 0 10px;
   text-decoration: none;
