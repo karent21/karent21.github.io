@@ -1,4 +1,3 @@
-
 body {
   margin: 0;
   font-family: 'DM Sans', sans-serif;
@@ -6,27 +5,36 @@ body {
   text-align: center;
 }
 
-
 .top-image {
   display: block;
-  width: 100%;
-  height: auto;
+  width: 100%;         
+  height: 250px;        
+  object-fit: cover;    
+  margin: 0;
+  padding: 0;
 }
 
+.bottom-image {
+  display: block;
+  width: 103%; 
+  height: 250px; 
+  object-fit: cover;
+  margin: -50px;
+  padding: 0;
+}
 
 header {
-  margin-top: -280px;
+  margin-top: -200px;
   background-color: #D1D1FA;
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  padding: 15px 15px;
+  justify-content: center;
+  padding: 12px 15px;
   position: relative;
   z-index: 10;
 }
 
-
-nav a {
+nav a.nav-link {
   margin: 0 10px;
   padding: 5px 10px;
   background: white;
@@ -36,6 +44,7 @@ nav a {
   color: #000;
   transition: 0.3s;
 }
+
 nav a:hover {
   background-color: #d4c6f2;
 }
@@ -43,79 +52,56 @@ nav a.active {
   border: 2px solid #b5a6f5;
 }
 
-
 h1 {
   font-size: 35px;
-  margin: 40px 0 20px 0;
+  margin: 30px 0 0px 0;
   text-align: center;
 }
 
-
 .bio-section {
   display: flex;
+  flex-direction: column;
+  align-items: center;
   justify-content: center;
   margin: 0 auto 40px auto;
   width: 90%;
   max-width: 1000px;
+  gap: 20px; 
 }
-
 
 .bio-column {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  flex: 1;
 }
-
 
 .purple-box {
   background-color: #c5bbf9;
-  padding: 23px 46px;
+  padding: 13px 30px;
+  border-radius: 15px;
+  font-size: 20px;
+  line-height: 1.4;
+  text-align: left;
+  width: 100%;
+}
+
+.purple-box2 {
+  background-color: #c5bbf9;
+  padding: 13px 30px;
   border-radius: 15px;
   font-size: 18px;
   line-height: 1.4;
-  text-align: center;
-  max-width: 900px;
-  width: 90%;
-  margin-top: 30px;
-}
-
-
-.bottom-image {
-  display: block;
+  text-align: left;
   width: 100%;
-  height: auto;
-  margin-top: -40px;
 }
 
+
 @media (min-width: 768px) {
-  nav {
-    display: flex !important;
-    gap: 20px;
-  }
-
-  header nav {
-    display: flex;
-    align-items: center;
-    width: 100%;
-  }
-
-  header nav a:first-child {
-    margin-right: auto;
+  .bio-section {
+    flex-direction: row;
+    align-items: flex-start;
+    text-align: left;
   }
 }
-@media (min-width: 768px) {
-  nav {
-    display: flex !important;
-    gap: 20px;
-  }
 
-  header nav {
-    display: flex;
-    align-items: center;
-    width: 100%;
-  }
-
-  header nav a:first-child {
-    margin-right: auto;
-  }
+.content-container {
+  padding-top: 40px; 
 }
